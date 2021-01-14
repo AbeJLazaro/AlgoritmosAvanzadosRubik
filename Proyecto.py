@@ -607,5 +607,5 @@ def parte2():
   graficarMemoria(tamaño,labels=["A*","IDA*","A* modificado"])
 
 if __name__ == '__main__':
-  #parte1()
+  parte1()
   parte2()

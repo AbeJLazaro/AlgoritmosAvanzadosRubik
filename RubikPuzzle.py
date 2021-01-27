@@ -1,3 +1,10 @@
+'''
+Autores:      Lázaro Martínez Abraham Josué
+
+Versión:      1.1
+Fecha:        26 de enero de 2021
+Nombre:       RubikPuzzle.py
+'''
 from functools import reduce
 from termcolor import colored
 from random import choice

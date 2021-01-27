@@ -1,3 +1,10 @@
+'''
+Autores:      Lázaro Martínez Abraham Josué
+
+Versión:      1.1
+Fecha:        26 de enero de 2021
+Nombre:       HeuristicaPatrons.py
+'''
 # estructuras de datos
 from collections import deque
 from heapq import heappush as push

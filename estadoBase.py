@@ -1,3 +1,11 @@
+'''
+Autores:      Cabrera Gaytán Jazmín Andrea
+              Lázaro Martínez Abraham Josué
+
+Versión:      1.1
+Fecha:        26 de enero de 2021
+Nombre:       estadoBase.py
+'''
 from abc import abstractmethod,ABC
 
 class EstadoProblema:

@@ -1,3 +1,11 @@
+'''
+Autores:      Cabrera Gaytán Jazmín Andrea
+              Lázaro Martínez Abraham Josué
+
+Versión:      1.1
+Fecha:        26 de enero de 2021
+Nombre:       Comparacion.py
+'''
 from sys import path
 path.append("../")
 path.append("../problemasBase")

@@ -1,3 +1,11 @@
+'''
+Autores:      Cabrera Gaytán Jazmín Andrea
+              Lázaro Martínez Abraham Josué
+
+Versión:      1.1
+Fecha:        26 de enero de 2021
+Nombre:       Proyecto.py
+'''
 # estructuras de datos
 from collections import deque
 from heapq import heappush as push
@@ -448,7 +456,7 @@ def graficarTiempoTresAlgoritmos(tiempos,labels=['A*', 'IDA*','Bidireccional']):
   x = np.arange(len(labels))  # the label locations
   width=0.45
   fig, ax = plt.subplots()
-  rects = ax.bar(x , tiempos, width, label='Cruz')
+  rects = ax.bar(x , tiempos, width, label='tiempo')
 
   # Add some text for labels, title and custom x-axis tick labels, etc.
   ax.set_ylabel('Tiempo')
@@ -466,7 +474,7 @@ def graficarMemoria(tamaños,labels=['A*', 'IDA*','Bidireccional']):
   x = np.arange(len(labels))  # the label locations
   width=0.45
   fig, ax = plt.subplots()
-  rects = ax.bar(x , tamaños, width, label='Cruz')
+  rects = ax.bar(x , tamaños, width)
 
   # Add some text for labels, title and custom x-axis tick labels, etc.
   ax.set_ylabel('Memoria consumida')
